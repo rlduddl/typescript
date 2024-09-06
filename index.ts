@@ -239,3 +239,20 @@
 //   test: "hellow",
 // };
 // const ex2: Example.test2 = 123;
+
+// interface Example {
+//   hello: string;
+//   world?: number; // optional
+//   readonly wow: boolean;
+// }
+// const data: Example = {
+//   hello: "fjfjfj",
+//   world: undefined,
+//   wow: false,
+// };
+// fetch("url")
+//   .then((res) => res.json())
+//   .then((data: Example) => {
+//     console.log(data.hello);
+//     console.log(data.world);
+//   });
